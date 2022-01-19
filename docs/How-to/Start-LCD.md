@@ -31,4 +31,4 @@ Once restarted, the LCD will be available.
 
 For more information about the Terra REST API endpoints, see the [Swagger documentation](https://lcd.terra.dev/swagger/).
 
-For more information on configuring `App.toml`, visit the [configure general settings](/How-to/Start-LCD.md) page.
+For more information on configuring `App.toml`, visit the [configure general settings](How-to/Start-LCD.md) page.

@@ -18,7 +18,7 @@ terrad init <your_custom_moniker>
 Monikers can only contain ASCII characters; using Unicode characters will render your node unreachable by other peers in the network.
 :::
 
-You can edit this `moniker` later, in the `~/.terra/config/config.toml` file:
+You can edit this `moniker` later, in the `~/.terra/config/config.toml` file using the nano command  % nano ~/Documents/myFile.conf:
 
 ```toml
 # A custom human readable name for this node

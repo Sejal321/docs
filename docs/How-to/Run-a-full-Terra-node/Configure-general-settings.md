@@ -4,9 +4,9 @@ The following information describes the most important node configuration settin
 
 For more detailed descriptions about your configuration settings, including settings for WASM, explore each configuration file.
 
-## Update your moniker
+## Update your moniker 
 
-1. Open `~/.terra/config/config.toml`.
+1. % nano ~/.terra/config/app.toml.
 
 2. Modify the `moniker` to name your node.
 
@@ -35,11 +35,11 @@ curl https://network.terra.dev/testnet/addrbook.json > ~/.terra/config/addrbook.
 
 ## Update minimum gas prices
 
-1. Open `~/.terra/config/app.toml`.
+1. % nano ~/.terra/config/app.toml.
 
 2. Modify `minimum-gas-prices` to set the minimum price of gas a validator will accept to validate a transaction and to prevent spam.
 
-```toml
+```
 # The minimum gas prices a validator is willing to accept for processing a
 # transaction. A transaction's fees must meet the minimum of any denomination
 # specified in this config (e.g. 0.25token1;0.0001token2).
@@ -51,7 +51,7 @@ minimum-gas-prices = "0.01133uluna,0.15uusd,0.104938usdr,169.77ukrw,428.571umnt,
 
 To enable the REST API and Swagger, and to start the LCD, complete the following steps:
 
-1. Open `~/.terra/config/app.toml`.
+1. % nano ~/.terra/config/app.toml.
 
 2. Locate the `API Configuration` section (`[api]`).
 
